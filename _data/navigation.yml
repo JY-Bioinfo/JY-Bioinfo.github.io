@@ -1,0 +1,13 @@
+# Main navigation links (order matters)
+main:
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/
+  - title: "Awesome AI Antibody"
+    url: https://JY-Bioinfo.github.io/awesome-ai-antibody-design/
+    external: true

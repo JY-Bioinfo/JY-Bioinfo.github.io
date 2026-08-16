@@ -1,0 +1,17 @@
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+.bundle/
+vendor/bundle/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local dev-only config (uses local theme gem; not needed on GitHub Pages)
+_config.dev.yml

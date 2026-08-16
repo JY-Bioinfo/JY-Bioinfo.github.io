@@ -1,0 +1,141 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+title: "Jinyuan Guo"
+title_separator: " · "
+subtitle: "AI for Drug Design · Antibodies · Immunology"
+name: "Jinyuan Guo"
+description: >-
+  A blog about AI-driven drug design, computational antibody engineering,
+  machine learning for biology, and immune repertoire research.
+url: "https://JY-Bioinfo.github.io"
+baseurl: ""                          # project site: set to "/awesome-ai-antibody-design"
+repository: "JY-Bioinfo/JY-Bioinfo.github.io"
+logo: "/assets/images/logo.png"
+teaser: "/assets/images/teaser.jpg"
+words_per_minute: 200
+
+# -----------------------------------------------------------------------------
+# Author / owner
+# -----------------------------------------------------------------------------
+author:
+  name: "Jinyuan Guo"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Researcher in AI-driven drug design (AIDD). Interested in computational antibody engineering, protein language models, and immune repertoire analysis."
+  location: "Shanghai, China"
+  email: "jinyuan.guo.pku@outlook.com"
+  github: "JY-Bioinfo"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/JY-Bioinfo"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:jinyuan.guo.pku@outlook.com"
+
+# -----------------------------------------------------------------------------
+# Site footer
+# -----------------------------------------------------------------------------
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/JY-Bioinfo"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:jinyuan.guo.pku@outlook.com"
+    - label: "Awesome AI Antibody"
+      icon: "fas fa-fw fa-dna"
+      url: "https://JY-Bioinfo.github.io/awesome-ai-antibody-design/"
+
+# -----------------------------------------------------------------------------
+# Atom / RSS feed
+# -----------------------------------------------------------------------------
+atom_feed:
+  hide: false
+
+# -----------------------------------------------------------------------------
+# SEO
+# -----------------------------------------------------------------------------
+seo_type: "Person"
+
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin: "default"     # light default; 'dark' is the dark skin
+
+# -----------------------------------------------------------------------------
+# Plugins
+# -----------------------------------------------------------------------------
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+# -----------------------------------------------------------------------------
+# Mimimal Mistakes: reading / archive
+# -----------------------------------------------------------------------------
+paginate: 5
+paginate_path: /page:num/
+timezone: Asia/Shanghai
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title:output_ext
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages collection
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# -----------------------------------------------------------------------------
+# Archive / category / tag pages
+# -----------------------------------------------------------------------------
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# -----------------------------------------------------------------------------
+# Build settings
+# -----------------------------------------------------------------------------
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+compress_html:
+  clippings: all
+  comments: all
