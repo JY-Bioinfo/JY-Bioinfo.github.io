@@ -1,13 +1,14 @@
 # -----------------------------------------------------------------------------
-# JY's Log — a log about AI for drug design, antibodies and peptides
+# JY's Log — an index of knowledge projects on AI for drug design
 # -----------------------------------------------------------------------------
 
 title: "JY's Log"
 subtitle: "AI for Drug Design · Antibodies · Peptides"
 name: "JY's Log"
 description: >-
-  A knowledge log on AI-driven drug design, computational antibody and peptide
-  engineering, protein language models, and immune repertoire analysis.
+  An index of knowledge projects on AI-driven drug design, computational
+  antibody and peptide engineering, protein language models, and immune
+  repertoire analysis.
 url: "https://JY-Bioinfo.github.io"
 baseurl: ""
 repository: "JY-Bioinfo/JY-Bioinfo.github.io"
@@ -17,31 +18,8 @@ timezone: Asia/Shanghai
 # Plugins
 # -----------------------------------------------------------------------------
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
-# -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
-collections:
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:title:output_ext
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-  # standalone pages at the root
-  - scope:
-      path: "*.md"
-      type: pages
-    values:
-      layout: page
 
 # -----------------------------------------------------------------------------
 # Build settings
@@ -60,13 +38,5 @@ kramdown:
 # Navigation
 # -----------------------------------------------------------------------------
 nav:
-  - label: "Posts"
-    url: "/posts/"
   - label: "Projects"
     url: "/projects/"
-  - label: "Categories"
-    url: "/categories/"
-  - label: "Tags"
-    url: "/tags/"
-  - label: "Search"
-    url: "/search/"

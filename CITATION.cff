@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-title: "JY's Log: a knowledge log on AI for drug design"
+title: "JY's Log: an index of knowledge projects on AI for drug design"
 message: >-
-  If you use a post or page from this log, please cite the individual post and its
-  sources. To cite the log itself, use this file.
+  This site is an index; to cite its content, cite the individual project and
+  its sources. To cite the index itself, use this file.
 type: software
 authors:
   - given-names: Jinyuan
@@ -17,9 +17,9 @@ keywords:
   - antibody engineering
   - peptide engineering
   - protein language models
-  - blog
+  - project index
 abstract: >-
-  A knowledge log on AI-driven drug design: computational antibody and peptide
-  engineering, protein language models, structure prediction, generative design,
-  and immune repertoire analysis. Posts are reading notes and essays that cite
-  their original sources.
+  An index of knowledge projects on AI-driven drug design: computational
+  antibody and peptide engineering, protein language models, structure
+  prediction, generative design, and immune repertoire analysis. The index
+  links to its maintained project sites.
