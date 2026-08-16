@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf9f3">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
+  <link rel="sitemap" type="application/xml" href="{{ '/sitemap.xml' | absolute_url }}">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+  {% seo %}
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav" aria-label="Main">
+        {% for item in site.nav %}
+          {% assign active = false %}
+          {% if page.url == item.url %}{% assign active = true %}{% endif %}
+          {% if page.url != '/' and page.url contains item.url %}{% assign active = true %}{% endif %}
+          <a class="nav-link{% if active %} nav-link--active{% endif %}" href="{{ item.url | relative_url }}">{{ item.label }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="content">
+    <div class="wrap">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p class="footer-text">
+        {{ site.title }} — a knowledge log on AI for drug design.
+        Content licensed <a rel="license" href="{{ '/LICENSE' | relative_url }}">CC BY 4.0</a>.
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a> ·
+        <a href="https://github.com/JY-Bioinfo">GitHub</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

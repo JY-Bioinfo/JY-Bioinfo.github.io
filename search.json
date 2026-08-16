@@ -6,6 +6,7 @@ layout: none
   {
     "title": {{ post.title | jsonify }},
     "url": "{{ post.url | relative_url }}",
+    "date": "{{ post.date | date: '%Y-%m-%d' }}",
     "excerpt": {{ post.excerpt | strip_html | jsonify }},
     "categories": {{ post.categories | jsonify }},
     "tags": {{ post.tags | jsonify }}

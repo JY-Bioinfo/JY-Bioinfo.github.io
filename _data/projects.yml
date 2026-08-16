@@ -1,0 +1,38 @@
+- name: "Awesome AI Antibody Design"
+  meta: "336 methods · 40 software · 50 data resources · 41 reading"
+  description: >-
+    A verified catalogue of computational methods, software, data resources and reading for
+    antibody, nanobody and TCR engineering — organized into 16 routes with an interactive
+    **lineage roadmap** and a searchable catalogue.
+  url: "https://JY-Bioinfo.github.io/awesome-ai-antibody-design/"
+  external: true
+  links:
+    - label: "Lineage Roadmap"
+      url: "https://JY-Bioinfo.github.io/awesome-ai-antibody-design/"
+      external: true
+    - label: "Catalogue"
+      url: "https://JY-Bioinfo.github.io/awesome-ai-antibody-design/catalogue.html"
+      external: true
+    - label: "GitHub"
+      url: "https://github.com/JY-Bioinfo/awesome-ai-antibody-design"
+      external: true
+
+- name: "Peptide Drug Design Handbook"
+  meta: "A GLP-1-focused handbook · 中 / EN"
+  description: >-
+    A self-contained interactive handbook on peptide drug design and engineering, using
+    GLP-1-class drugs as the main thread — from peptide biology and half-life engineering
+    to AI-aided design, drug-by-drug anatomy, and patent circumvention. Available in
+    Chinese and English.
+  url: "https://JY-Bioinfo.github.io/peptide-drug-design-handbook/"
+  external: true
+  links:
+    - label: "中文手册"
+      url: "https://JY-Bioinfo.github.io/peptide-drug-design-handbook/handbook.zh.html"
+      external: true
+    - label: "English Handbook"
+      url: "https://JY-Bioinfo.github.io/peptide-drug-design-handbook/handbook.en.html"
+      external: true
+    - label: "GitHub"
+      url: "https://github.com/JY-Bioinfo/peptide-drug-design-handbook"
+      external: true
