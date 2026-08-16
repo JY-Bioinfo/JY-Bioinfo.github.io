@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "JY's Log: a knowledge log on AI for drug design"
+message: >-
+  If you use a post or page from this log, please cite the individual post and its
+  sources. To cite the log itself, use this file.
+type: software
+authors:
+  - given-names: Jinyuan
+    family-names: Guo
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/JY-Bioinfo/JY-Bioinfo.github.io"
+license: CC-BY-4.0
+version: 1.0.0
+date-released: "2026-08-16"
+keywords:
+  - AI drug design
+  - antibody engineering
+  - peptide engineering
+  - protein language models
+  - blog
+abstract: >-
+  A knowledge log on AI-driven drug design: computational antibody and peptide
+  engineering, protein language models, structure prediction, generative design,
+  and immune repertoire analysis. Posts are reading notes and essays that cite
+  their original sources.
